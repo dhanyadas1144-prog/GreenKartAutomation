@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-GreenKart_Test_Suite" class="navigator-link">
+              <span class="suite-name border-passed">GreenKart Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-GreenKart_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\Lenovo\eclipse-workspace\GreenKartAutomation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-GreenKart_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-GreenKart_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-GreenKart_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-GreenKart_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-GreenKart_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-GreenKart_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-GreenKart_Test_Suite" class="hide-methods passed suite-GreenKart_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-GreenKart_Test_Suite -->
+                      <a href="#" panel-name="suite-GreenKart_Test_Suite" class="show-methods passed suite-GreenKart_Test_Suite"> (show)</a> <!-- show-methods passed suite-GreenKart_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-GreenKart_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKart_Test_Suite" title="testcases.AddToCartTest" class="method navigator-link" hash-for-method="addValidProductToCart">addValidProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKart_Test_Suite" title="E2EWorkflowTest.E2EWorkflowTest" class="method navigator-link" hash-for-method="completePurchaseWorkflow">completePurchaseWorkflow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKart_Test_Suite" title="E2EWorkflowTest.E2EWorkflowTest" class="method navigator-link" hash-for-method="emptyCartCheckout">emptyCartCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKart_Test_Suite" title="testcases.CheckoutTest" class="method navigator-link" hash-for-method="invalidPromoCodeTest">invalidPromoCodeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKart_Test_Suite" title="E2EWorkflowTest.E2EWorkflowTest" class="method navigator-link" hash-for-method="missingMandatoryFields">missingMandatoryFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKart_Test_Suite" title="testcases.CheckoutTest" class="method navigator-link" hash-for-method="validPromoCodeTest">validPromoCodeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKart_Test_Suite" title="testcases.CartTest" class="method navigator-link" hash-for-method="verifyCartPrice">verifyCartPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKart_Test_Suite" title="testcases.CartTest" class="method navigator-link" hash-for-method="verifyCartQuantity">verifyCartQuantity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKart_Test_Suite" title="testcases.HomePageTest" class="method navigator-link" hash-for-method="verifyFooterContent">verifyFooterContent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKart_Test_Suite" title="testcases.HomePageTest" class="method navigator-link" hash-for-method="verifyFooterDisplayed">verifyFooterDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKart_Test_Suite" title="testcases.HomePageTest" class="method navigator-link" hash-for-method="verifyHomePagePositive">verifyHomePagePositive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKart_Test_Suite" title="testcases.HomePageTest" class="method navigator-link" hash-for-method="verifyHomePageTitle">verifyHomePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKart_Test_Suite" title="testcases.ProductDetailsTest" class="method navigator-link" hash-for-method="verifyProductDetails">verifyProductDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKart_Test_Suite" title="testcases.AddToCartTest" class="method navigator-link" hash-for-method="verifyProductNotAddedWhenInvalid">verifyProductNotAddedWhenInvalid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKart_Test_Suite" title="testcases.ProductSearchTest" class="method navigator-link" hash-for-method="verifyProductSearch(Carrot, true)">verifyProductSearch(Carrot, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKart_Test_Suite" title="testcases.ProductSearchTest" class="method navigator-link" hash-for-method="verifyProductSearch(fsdfsdf, false)">verifyProductSearch(fsdfsdf, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKart_Test_Suite" title="testcases.ProductSearchTest" class="method navigator-link" hash-for-method="verifyProductSearch(Brocolli, true)">verifyProductSearch(Brocolli, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKart_Test_Suite" title="testcases.ProductSearchTest" class="method navigator-link" hash-for-method="verifyProductSearch(XYZ123, false)">verifyProductSearch(XYZ123, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKart_Test_Suite" title="testcases.ProductSearchTest" class="method navigator-link" hash-for-method="verifyProductSearch(Cucumber, true)">verifyProductSearch(Cucumber, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-GreenKart_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-GreenKart_Test_Suite" class="panel GreenKart_Test_Suite">
+          <div class="suite-GreenKart_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">E2EWorkflowTest.E2EWorkflowTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="completePurchaseWorkflow">
+                  </a> <!-- completePurchaseWorkflow -->
+                  <span class="method-name">completePurchaseWorkflow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptyCartCheckout">
+                  </a> <!-- emptyCartCheckout -->
+                  <span class="method-name">emptyCartCheckout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="missingMandatoryFields">
+                  </a> <!-- missingMandatoryFields -->
+                  <span class="method-name">missingMandatoryFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GreenKart_Test_Suite-class-passed -->
+          <div class="suite-GreenKart_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.ProductDetailsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductDetails">
+                  </a> <!-- verifyProductDetails -->
+                  <span class="method-name">verifyProductDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GreenKart_Test_Suite-class-passed -->
+          <div class="suite-GreenKart_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.CartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCartPrice">
+                  </a> <!-- verifyCartPrice -->
+                  <span class="method-name">verifyCartPrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCartQuantity">
+                  </a> <!-- verifyCartQuantity -->
+                  <span class="method-name">verifyCartQuantity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GreenKart_Test_Suite-class-passed -->
+          <div class="suite-GreenKart_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.CheckoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidPromoCodeTest">
+                  </a> <!-- invalidPromoCodeTest -->
+                  <span class="method-name">invalidPromoCodeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validPromoCodeTest">
+                  </a> <!-- validPromoCodeTest -->
+                  <span class="method-name">validPromoCodeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GreenKart_Test_Suite-class-passed -->
+          <div class="suite-GreenKart_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.AddToCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addValidProductToCart">
+                  </a> <!-- addValidProductToCart -->
+                  <span class="method-name">addValidProductToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductNotAddedWhenInvalid">
+                  </a> <!-- verifyProductNotAddedWhenInvalid -->
+                  <span class="method-name">verifyProductNotAddedWhenInvalid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GreenKart_Test_Suite-class-passed -->
+          <div class="suite-GreenKart_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.ProductSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductSearch(Carrot, true)">
+                  </a> <!-- verifyProductSearch(Carrot, true) -->
+                  <span class="method-name">verifyProductSearch</span>
+                  <span class="parameters">(Carrot,true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductSearch(fsdfsdf, false)">
+                  </a> <!-- verifyProductSearch(fsdfsdf, false) -->
+                  <span class="method-name">verifyProductSearch</span>
+                  <span class="parameters">(fsdfsdf,false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductSearch(Brocolli, true)">
+                  </a> <!-- verifyProductSearch(Brocolli, true) -->
+                  <span class="method-name">verifyProductSearch</span>
+                  <span class="parameters">(Brocolli,true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductSearch(XYZ123, false)">
+                  </a> <!-- verifyProductSearch(XYZ123, false) -->
+                  <span class="method-name">verifyProductSearch</span>
+                  <span class="parameters">(XYZ123,false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductSearch(Cucumber, true)">
+                  </a> <!-- verifyProductSearch(Cucumber, true) -->
+                  <span class="method-name">verifyProductSearch</span>
+                  <span class="parameters">(Cucumber,true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GreenKart_Test_Suite-class-passed -->
+          <div class="suite-GreenKart_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFooterContent">
+                  </a> <!-- verifyFooterContent -->
+                  <span class="method-name">verifyFooterContent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFooterDisplayed">
+                  </a> <!-- verifyFooterDisplayed -->
+                  <span class="method-name">verifyFooterDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePagePositive">
+                  </a> <!-- verifyHomePagePositive -->
+                  <span class="method-name">verifyHomePagePositive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageTitle">
+                  </a> <!-- verifyHomePageTitle -->
+                  <span class="method-name">verifyHomePageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GreenKart_Test_Suite-class-passed -->
+        </div> <!-- panel GreenKart_Test_Suite -->
+        <div panel-name="test-xml-GreenKart_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Lenovo\eclipse-workspace\GreenKartAutomation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;GreenKart Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;GreenKart Test Cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;testcases.ProductSearchTest&quot;/&gt;
+      &lt;class name=&quot;testcases.ProductDetailsTest&quot;/&gt;
+      &lt;class name=&quot;testcases.AddToCartTest&quot;/&gt;
+      &lt;class name=&quot;testcases.CartTest&quot;/&gt;
+      &lt;class name=&quot;testcases.CheckoutTest&quot;/&gt;
+      &lt;class name=&quot;E2EWorkflowTest.E2EWorkflowTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GreenKart Test Cases --&gt;
+&lt;/suite&gt; &lt;!-- GreenKart Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-GreenKart_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for GreenKart Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">GreenKart Test Cases (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-GreenKart_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for GreenKart Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-GreenKart_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for GreenKart Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_GreenKart_Test_Suite');
+function tableData_GreenKart_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'completePurchaseWorkflow')
+data.setCell(0, 2, 'E2EWorkflowTest.E2EWorkflowTest')
+data.setCell(0, 3, 8163);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'invalidPromoCodeTest')
+data.setCell(1, 2, 'testcases.CheckoutTest')
+data.setCell(1, 3, 7278);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validPromoCodeTest')
+data.setCell(2, 2, 'testcases.CheckoutTest')
+data.setCell(2, 3, 7112);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'missingMandatoryFields')
+data.setCell(3, 2, 'E2EWorkflowTest.E2EWorkflowTest')
+data.setCell(3, 3, 2627);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyCartPrice')
+data.setCell(4, 2, 'testcases.CartTest')
+data.setCell(4, 3, 1706);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyCartQuantity')
+data.setCell(5, 2, 'testcases.CartTest')
+data.setCell(5, 3, 1112);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'addValidProductToCart')
+data.setCell(6, 2, 'testcases.AddToCartTest')
+data.setCell(6, 3, 994);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyProductSearch')
+data.setCell(7, 2, 'testcases.ProductSearchTest')
+data.setCell(7, 3, 743);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyProductDetails')
+data.setCell(8, 2, 'testcases.ProductDetailsTest')
+data.setCell(8, 3, 668);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyProductSearch')
+data.setCell(9, 2, 'testcases.ProductSearchTest')
+data.setCell(9, 3, 613);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyProductSearch')
+data.setCell(10, 2, 'testcases.ProductSearchTest')
+data.setCell(10, 3, 580);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'emptyCartCheckout')
+data.setCell(11, 2, 'E2EWorkflowTest.E2EWorkflowTest')
+data.setCell(11, 3, 525);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyProductSearch')
+data.setCell(12, 2, 'testcases.ProductSearchTest')
+data.setCell(12, 3, 513);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyProductNotAddedWhenInvalid')
+data.setCell(13, 2, 'testcases.AddToCartTest')
+data.setCell(13, 3, 487);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyProductSearch')
+data.setCell(14, 2, 'testcases.ProductSearchTest')
+data.setCell(14, 3, 468);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyFooterDisplayed')
+data.setCell(15, 2, 'testcases.HomePageTest')
+data.setCell(15, 3, 112);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyFooterContent')
+data.setCell(16, 2, 'testcases.HomePageTest')
+data.setCell(16, 3, 99);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyHomePageTitle')
+data.setCell(17, 2, 'testcases.HomePageTest')
+data.setCell(17, 3, 25);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyHomePagePositive')
+data.setCell(18, 2, 'testcases.HomePageTest')
+data.setCell(18, 3, 21);
+window.suiteTableData['GreenKart_Test_Suite']= { tableData: data, tableDiv: 'times-div-GreenKart_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 33 seconds</span>
+              <div id="times-div-GreenKart_Test_Suite">
+              </div> <!-- times-div-GreenKart_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-GreenKart_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for GreenKart Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-GreenKart_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-GreenKart_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFooterContent</span>
+                <span class="method-start">7187 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7302 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">7783 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFooterDisplayed</span>
+                <span class="method-start">13295 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">13419 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">13824 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePagePositive</span>
+                <span class="method-start">18759 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18785 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">19107 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePageTitle</span>
+                <span class="method-start">23227 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">23262 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.ProductSearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">23643 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductSearch(Brocolli, true)</span>
+                <span class="method-start">27605 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">28348 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">28679 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductSearch(Carrot, true)</span>
+                <span class="method-start">33638 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">34218 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">34580 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductSearch(Cucumber, true)</span>
+                <span class="method-start">38626 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">39243 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">39832 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductSearch(XYZ123, false)</span>
+                <span class="method-start">43998 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">44480 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">44791 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductSearch(fsdfsdf, false)</span>
+                <span class="method-start">48952 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">49473 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.ProductDetailsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">49827 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductDetails</span>
+                <span class="method-start">54115 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">54794 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.AddToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">55155 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addValidProductToCart</span>
+                <span class="method-start">59671 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60668 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">61008 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductNotAddedWhenInvalid</span>
+                <span class="method-start">65642 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">66136 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">66477 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCartPrice</span>
+                <span class="method-start">70700 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">72412 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">72762 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCartQuantity</span>
+                <span class="method-start">77973 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">79091 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">79433 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidPromoCodeTest</span>
+                <span class="method-start">84076 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">91363 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">91755 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validPromoCodeTest</span>
+                <span class="method-start">99082 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">106194 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">E2EWorkflowTest.E2EWorkflowTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">106572 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">completePurchaseWorkflow</span>
+                <span class="method-start">110551 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">118714 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">119146 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">emptyCartCheckout</span>
+                <span class="method-start">123827 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">124362 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">124694 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">missingMandatoryFields</span>
+                <span class="method-start">129117 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">131751 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM
+        "https://testng.org/testng-1.0.dtd">
+
+<suite name="GreenKart Test Suite">
+    
+
+    <test name="GreenKart Test Cases">
+
+        <classes>
+
+            <class name="testcases.HomePageTest"/>
+
+            <class name="testcases.ProductSearchTest"/>
+
+            <class name="testcases.ProductDetailsTest"/>
+
+            <class name="testcases.AddToCartTest"/>
+
+            <class name="testcases.CartTest"/>
+
+            <class name="testcases.CheckoutTest"/>
+
+            <!-- New: E2E workflow -->
+            <class name="E2EWorkflowTest.E2EWorkflowTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>

@@ -1,0 +1,175 @@
+<html>
+<head>
+<title>TestNG:  GreenKart Test Cases</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>GreenKart Test Cases</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 23 17:52:48 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>132 seconds (132230 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.ProductSearchTest.verifyProductSearch()'><b>verifyProductSearch</b><br>Test class: testcases.ProductSearchTest<br>Parameters: Carrot, true</td>
+<td></td>
+<td>0</td>
+<td>testcases.ProductSearchTest@49438269</td></tr>
+<tr>
+<td title='testcases.CartTest.verifyCartPrice()'><b>verifyCartPrice</b><br>Test class: testcases.CartTest</td>
+<td></td>
+<td>1</td>
+<td>testcases.CartTest@55fe41ea</td></tr>
+<tr>
+<td title='E2EWorkflowTest.E2EWorkflowTest.emptyCartCheckout()'><b>emptyCartCheckout</b><br>Test class: E2EWorkflowTest.E2EWorkflowTest</td>
+<td></td>
+<td>0</td>
+<td>E2EWorkflowTest.E2EWorkflowTest@1ce24091</td></tr>
+<tr>
+<td title='testcases.ProductDetailsTest.verifyProductDetails()'><b>verifyProductDetails</b><br>Test class: testcases.ProductDetailsTest</td>
+<td></td>
+<td>0</td>
+<td>testcases.ProductDetailsTest@ba2f4ec</td></tr>
+<tr>
+<td title='testcases.CheckoutTest.invalidPromoCodeTest()'><b>invalidPromoCodeTest</b><br>Test class: testcases.CheckoutTest</td>
+<td></td>
+<td>7</td>
+<td>testcases.CheckoutTest@fbd1f6</td></tr>
+<tr>
+<td title='testcases.ProductSearchTest.verifyProductSearch()'><b>verifyProductSearch</b><br>Test class: testcases.ProductSearchTest<br>Parameters: fsdfsdf, false</td>
+<td></td>
+<td>0</td>
+<td>testcases.ProductSearchTest@49438269</td></tr>
+<tr>
+<td title='testcases.HomePageTest.verifyFooterDisplayed()'><b>verifyFooterDisplayed</b><br>Test class: testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePageTest@702657cc</td></tr>
+<tr>
+<td title='testcases.HomePageTest.verifyHomePageTitle()'><b>verifyHomePageTitle</b><br>Test class: testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePageTest@702657cc</td></tr>
+<tr>
+<td title='testcases.CartTest.verifyCartQuantity()'><b>verifyCartQuantity</b><br>Test class: testcases.CartTest</td>
+<td></td>
+<td>1</td>
+<td>testcases.CartTest@55fe41ea</td></tr>
+<tr>
+<td title='testcases.ProductSearchTest.verifyProductSearch()'><b>verifyProductSearch</b><br>Test class: testcases.ProductSearchTest<br>Parameters: Brocolli, true</td>
+<td></td>
+<td>0</td>
+<td>testcases.ProductSearchTest@49438269</td></tr>
+<tr>
+<td title='testcases.ProductSearchTest.verifyProductSearch()'><b>verifyProductSearch</b><br>Test class: testcases.ProductSearchTest<br>Parameters: XYZ123, false</td>
+<td></td>
+<td>0</td>
+<td>testcases.ProductSearchTest@49438269</td></tr>
+<tr>
+<td title='E2EWorkflowTest.E2EWorkflowTest.missingMandatoryFields()'><b>missingMandatoryFields</b><br>Test class: E2EWorkflowTest.E2EWorkflowTest</td>
+<td></td>
+<td>2</td>
+<td>E2EWorkflowTest.E2EWorkflowTest@1ce24091</td></tr>
+<tr>
+<td title='testcases.HomePageTest.verifyHomePagePositive()'><b>verifyHomePagePositive</b><br>Test class: testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePageTest@702657cc</td></tr>
+<tr>
+<td title='testcases.AddToCartTest.verifyProductNotAddedWhenInvalid()'><b>verifyProductNotAddedWhenInvalid</b><br>Test class: testcases.AddToCartTest</td>
+<td></td>
+<td>0</td>
+<td>testcases.AddToCartTest@1c1bbc4e</td></tr>
+<tr>
+<td title='testcases.ProductSearchTest.verifyProductSearch()'><b>verifyProductSearch</b><br>Test class: testcases.ProductSearchTest<br>Parameters: Cucumber, true</td>
+<td></td>
+<td>0</td>
+<td>testcases.ProductSearchTest@49438269</td></tr>
+<tr>
+<td title='testcases.CheckoutTest.validPromoCodeTest()'><b>validPromoCodeTest</b><br>Test class: testcases.CheckoutTest</td>
+<td></td>
+<td>7</td>
+<td>testcases.CheckoutTest@fbd1f6</td></tr>
+<tr>
+<td title='E2EWorkflowTest.E2EWorkflowTest.completePurchaseWorkflow()'><b>completePurchaseWorkflow</b><br>Test class: E2EWorkflowTest.E2EWorkflowTest</td>
+<td></td>
+<td>8</td>
+<td>E2EWorkflowTest.E2EWorkflowTest@1ce24091</td></tr>
+<tr>
+<td title='testcases.HomePageTest.verifyFooterContent()'><b>verifyFooterContent</b><br>Test class: testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePageTest@702657cc</td></tr>
+<tr>
+<td title='testcases.AddToCartTest.addValidProductToCart()'><b>addValidProductToCart</b><br>Test class: testcases.AddToCartTest</td>
+<td></td>
+<td>0</td>
+<td>testcases.AddToCartTest@1c1bbc4e</td></tr>
+</table><p>
+</body>
+</html>
